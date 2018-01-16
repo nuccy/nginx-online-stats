@@ -1,5 +1,5 @@
 # nginx-online-stats
-This patches adds a fullstat module which extend nginx (tested with nginx 1.2.1) statistics functionality by introducing the new internal page updated in realtime.
+This patche adds a ```fullstat``` module which extend nginx (tested with nginx 1.2.1) statistics functionality by introducing the new internal page updated in realtime.
 
 The main advantage of this software in comparison with lua or statd implementations is that it is very fast without noticiable affect on overall nginx performance.
 
