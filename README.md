@@ -13,11 +13,11 @@ To activate statistics for nginx, which is compiled with this patch you can simp
 location /nginx-status {
     full_status on;
     #allow 127.0.0.1/24;
-    deny  all;
+    #deny  all;
 }
 ```
 
-After that you can access http://your_website.com/nginx-status to see the statistics. Allow directive allows to limit access to this page.
+After that you can access http://your_website.com/nginx-status to see the statistics. Commented ```allow``` and ```deny``` directives allow to limit access to this page to a specific subnetwork or ip.
 
 ## Statistics page example
 
