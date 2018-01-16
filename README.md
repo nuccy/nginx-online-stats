@@ -32,4 +32,6 @@ example3.com                                5               9            1499   
 example4.com                               38            1093           17837          810103
 example5.com                                3           17973            1084           23572
 example6.com                              119            4292           54530          766747
+_NGINX_TOTAL_:                           1491          386683         1498143       241442502
+
 ```
