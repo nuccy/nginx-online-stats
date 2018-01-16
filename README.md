@@ -21,7 +21,7 @@ After that you can access http://your_website.com/nginx-status to see the statis
 
 ## Statistics page example
 
-The page includes the table each row of which represents statistics of one virtualhost:
+The page includes the table each row of which represents statistics of one virtualhost, first line is the header.
 
 ```
 virthost                             requests     active_msec      traffic_in     traffic_out
